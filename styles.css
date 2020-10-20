@@ -7,11 +7,17 @@ body {
     display:flex;
     padding:10px;
     margin: 10px;
-    background: orange
+    margin-bottom: 30px;
+    background: orange;
+    border-radius:5px;
+    box-shadow: 5px 10px navy;
+
 }
 .assignment img{
     width:208px;
     padding:10px;
+    margin-right: 20px;
+    border-radius: 5px;
 }
 
 h1 {
@@ -21,4 +27,8 @@ h1 {
 a{
     text-decoration:none;
     color:black
+}
+.assignment a :hover{
+    color: powderblue;
+
 }
